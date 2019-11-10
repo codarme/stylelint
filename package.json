@@ -33,6 +33,9 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.6.0",
