@@ -1,8 +1,37 @@
 {
   "name": "@codar/eslint-plugin",
   "version": "0.0.0",
-  "main": ".eslintrc.json",
+  "main": "index.js",
   "license": "MIT",
+  "author": {
+    "name": "Bruno Bertolini",
+    "email": "dev@brunobertolini.com",
+    "url": "http://brunobertolini.com"
+  },
+  "scripts": {
+    "fix": "run-s \"fix:* {@}\" --",
+    "fix:lint": "eslint --fix",
+    "fix:format": "prettier --write",
+    "lint": "yarn fix:lint src/**/*.{ts,tsx,js,jsx,json}",
+    "format": "yarn fix:format src/**/*.{ts,tsx,js,jsx,json}"
+  },
+  "lint-staged": {
+    "./src/**/*.{ts,tsx,js,jsx,json}": [
+      "yarn fix",
+      "git add"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "peerDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.6.0",
@@ -10,5 +39,12 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "prettier": "^1.19.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "npm-run-all": "^4.1.5"
   }
 }
