@@ -12,11 +12,11 @@
     "fix": "run-s \"fix:* {@}\" --",
     "fix:lint": "eslint --fix",
     "fix:format": "prettier --write",
-    "lint": "yarn fix:lint src/**/*.{ts,tsx,js,jsx,json}",
-    "format": "yarn fix:format src/**/*.{ts,tsx,js,jsx,json}"
+    "lint": "yarn fix:lint **/*.{ts,tsx,js,jsx}",
+    "format": "yarn fix:format **/*.{ts,tsx,js,jsx}"
   },
   "lint-staged": {
-    "./src/**/*.{ts,tsx,js,jsx,json}": [
+    "**/*.{ts,tsx,js,jsx}": [
       "yarn fix",
       "git add"
     ]
