@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/logo.png" alt="Stylelint" />
+  <img src="/logo.png" alt="Stylelint" width="400px"/>
 </p>
 
 # Stylelint
