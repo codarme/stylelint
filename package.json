@@ -1,6 +1,6 @@
 {
   "name": "@codar/eslint-plugin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "author": {
