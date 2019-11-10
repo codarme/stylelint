@@ -8,6 +8,10 @@
     "email": "dev@brunobertolini.com",
     "url": "http://brunobertolini.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codarme/stylelint"
+  },
   "scripts": {
     "fix": "run-s \"fix:* {@}\" --",
     "fix:lint": "eslint --fix",
