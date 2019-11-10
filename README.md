@@ -25,3 +25,7 @@ and create a `prettier.config.js` file:
 ```js
 module.exports = require('@codar/eslint-plugin/prettier.config')
 ```
+
+# License
+
+Licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
