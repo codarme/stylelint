@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="/logo.png" alt="Stylelint" />
+</p>
+
 # Stylelint
 
 Basic ESLint and Prettier config to js projects
@@ -17,7 +21,6 @@ Create `.elsintrc` file:
 ```
 
 and create a `prettier.config.js` file:
-
 
 ```js
 module.exports = require('@codar/eslint-plugin/prettier.config')
