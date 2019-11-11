@@ -6,6 +6,7 @@ module.exports = {
       parser: 'babel-eslint',
       extends: [
         'eslint:recommended',
+        'plugin:json/recommended',
         'plugin:react/recommended',
         'plugin:prettier/recommended',
       ],
