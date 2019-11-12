@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/codarme/stylelint/compare/v0.1.1...v0.1.2) (2019-11-12)
+
+
+### Features
+
+* add es6 compatibility ([4ec4d8f](https://github.com/codarme/stylelint/commit/4ec4d8fe977a1ecd3abb4353ad09d4e7d3c55da5))
+
 ### [0.1.1](https://github.com/codarme/stylelint/compare/v0.1.0...v0.1.1) (2019-11-11)
 
 
