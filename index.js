@@ -8,9 +8,9 @@ module.exports = {
         'eslint:recommended',
         'plugin:json/recommended',
         'plugin:react/recommended',
+        'plugin:react-hooks/recommended',
         'plugin:prettier/recommended',
       ],
-
       env: {
         es6: true,
         node: true,
