@@ -8,7 +8,7 @@ Basic ESLint and Prettier config to js projects
 
 ## Install
 
-`yarn add --dev @codar/eslint-plugin eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-react eslint-plugin-json`
+`yarn add --dev @codar/eslint-plugin eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-json`
 
 ## Usage
 
