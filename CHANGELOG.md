@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/codarme/stylelint/compare/v0.1.2...v0.1.3) (2020-09-09)
+
+
+### Features
+
+* add eslint-plugin-react-hooks plugin ([e314f55](https://github.com/codarme/stylelint/commit/e314f55a5753980ac34f122a4ff895d548db9f57))
+
 ### [0.1.2](https://github.com/codarme/stylelint/compare/v0.1.1...v0.1.2) (2019-11-12)
 
 
